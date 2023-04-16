@@ -1,5 +1,5 @@
-FROM debian:bullseye-slim
+FROM fedora:latest
 
-RUN apt update && \
-    apt install -y python3 python3-pip && \
+RUN dnf update -y --refresh && \
+    dnf install -y python3 python3-pip && \
     pip3 install requests fastapi uvicorn fastapi_utils SQLAlchemy PyMySQL revChatGPT
