@@ -1,0 +1,8 @@
+requests
+python-multipart
+openai
+fastapi
+uvicorn
+fastapi_utils
+SQLAlchemy
+PyMySQL
