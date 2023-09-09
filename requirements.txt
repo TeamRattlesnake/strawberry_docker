@@ -6,3 +6,4 @@ uvicorn
 fastapi_utils
 SQLAlchemy
 PyMySQL
+email-validator
